@@ -1,0 +1,12 @@
+{ 
+"extends": [
+        "react-app",
+        "plugin:import/typescript",
+        "next/core-web-vitals"
+    ],
+"parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "project":"./tsconfig.json"
+    }
+}
